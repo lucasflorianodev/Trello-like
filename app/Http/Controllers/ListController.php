@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\ListModel; // Ensure this class exists in the specified namespace
 
-class ListControllers extends Controller
+class ListController extends Controller
 {
     public function store(Request $request, $boardId)
     {

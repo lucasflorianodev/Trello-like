@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Card;
 
-class CardControllers extends Controller
+class CardController extends Controller
 {
     public function store(Request $request, $listId)
     {

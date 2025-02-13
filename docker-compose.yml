@@ -22,6 +22,8 @@ services:
       DB_DATABASE: taskflow
       DB_USERNAME: admin
       DB_PASSWORD: secretadmin
+      
+      
 
   db:
     image: postgres:15
